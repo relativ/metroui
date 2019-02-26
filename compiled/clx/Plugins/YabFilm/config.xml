@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CONFIG>
+	<PLUGIN NAME="YABFILM" Lib="video.dll" />
+	<SKIN PATH="Skin" />
+	<BUTTON NAME="YABFILM" CAPTION="YABANCI FÝLM" ICON="icon.png" VISIBLE="-1" DRAWFORM="mainform">
+		<EVENT NAME="ONCLICK">
+			<CALLFUNCTION VALUE="ShowVideoForm" />
+		</EVENT>
+	</BUTTON>
+</CONFIG>

@@ -1,0 +1,48 @@
+object MainForm: TMainForm
+  Left = 253
+  Top = 61
+  BorderStyle = bsNone
+  Caption = 'Astech Box'
+  ClientHeight = 380
+  ClientWidth = 630
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnMouseDown = FormMouseDown
+  OnMouseUp = FormMouseUp
+  OnPaint = FormPaint
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ApplicationEvents: TApplicationEvents
+    OnException = ApplicationEventsException
+    Left = 256
+    Top = 40
+  end
+  object IdTCPClient: TIdTCPClient
+    ConnectTimeout = 0
+    IPVersion = Id_IPv4
+    Port = 0
+    ReadTimeout = 1000
+    Left = 144
+    Top = 152
+  end
+  object check_connection_timer: TTimer
+    Enabled = False
+    Interval = 500
+    OnTimer = check_connection_timerTimer
+    Left = 256
+    Top = 136
+  end
+  object readLn: TTimer
+    Enabled = False
+    OnTimer = readLnTimer
+    Left = 288
+    Top = 200
+  end
+end

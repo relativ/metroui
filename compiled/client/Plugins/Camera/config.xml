@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CONFIG>
+	<PLUGIN NAME="CAMERA" Lib="camera.dll" />
+	<SKIN PATH="Skin" />
+	<BUTTON NAME="CAMERA" CAPTION="KAMERA" ICON="icon.png" VISIBLE="-1" DRAWFORM="mainform">
+		<EVENT NAME="ONCLICK">
+			<CALLFUNCTION VALUE="ShowCameraForm" />
+		</EVENT>
+	</BUTTON>
+</CONFIG>

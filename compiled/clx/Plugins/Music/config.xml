@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CONFIG>
+	<PLUGIN NAME="MUSIC" Lib="music.dll" />
+	<SKIN PATH="Skin" />
+	<BUTTON NAME="Music" CAPTION="MÜZÝK" ICON="icon.png" VISIBLE="-1" DRAWFORM="mainform">
+		<EVENT NAME="ONCLICK">
+			<CALLFUNCTION VALUE="ShowMusicForm" />
+		</EVENT>
+	</BUTTON>
+</CONFIG>

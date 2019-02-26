@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CONFIG>
+	<PLUGIN NAME="RADIO" Lib="radio.dll" />
+	<SKIN PATH="Skin" />
+	<BUTTON NAME="RADIO" CAPTION="RADYO" ICON="icon.png" VISIBLE="-1" DRAWFORM="mainform">
+		<EVENT NAME="ONCLICK">
+			<CALLFUNCTION VALUE="ShowRadioForm" />
+		</EVENT>
+	</BUTTON>
+</CONFIG>

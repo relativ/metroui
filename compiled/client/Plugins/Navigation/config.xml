@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CONFIG>
+	<PLUGIN NAME="NAVIGATION" Lib="navigation.dll" />
+	<SKIN PATH="Skin" />
+	<BUTTON NAME="NAVIGATION" CAPTION="NAVÝGASYON" ICON="icon.png" VISIBLE="-1" DRAWFORM="mainform">
+		<EVENT NAME="ONCLICK">
+			<CALLFUNCTION VALUE="ShowNavigationForm" />
+		</EVENT>
+	</BUTTON>
+</CONFIG>

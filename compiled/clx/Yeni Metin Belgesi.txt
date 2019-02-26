@@ -1,0 +1,2 @@
+kernel 2.6 daa kylix ile oluþturulan uygulamanýn çalýþmasý için libborqt-6.9-qt2.3.so
+dosyasýný usr/lib klasörüne link atmalýsýn

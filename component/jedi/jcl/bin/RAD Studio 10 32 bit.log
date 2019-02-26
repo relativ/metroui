@@ -1,0 +1,187 @@
+================================================================================
+JCL 2.7 Testing Build 5676
+==========RAD Studio 10 32 bit==================================================
+Installed personalities :
+32 bit Delphi
+64 bit Delphi
+32 bit Delphi for OSX
+================================================================================
+Multiple profile installation
+Single profile installation
+================================================================================
+Saving conditional defines...
+Loaded template for include file C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\include\jcl.template.inc
+Saved include file C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\include\jcld23win32.inc
+Building source\common library units for RAD Studio 10 32 bit...
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" bzip2 Jcl8087 JclAbstractContainers JclAlgorithms JclAnsiStrings JclArrayLists JclArraySets JclBase JclBinaryTrees JclCharsets JclCompilerUtils JclComplex JclCompression JclContainerIntf JclCounter JclDateTime JclDevToolsResources JclExprEval JclFileUtils JclHashMaps JclHashSets JclIDEUtils JclIniFiles JclLinkedLists JclLogic JclMath JclMIDI JclMime JclNotify JclPCRE JclPreProcessorAlgorithmsTemplates JclPreProcessorArrayListsTemplates JclPreProcessorArraySetsTemplates JclPreProcessorBinaryTreesTemplates JclPreProcessorContainer1DTemplates JclPreProcessorContainer2DTemplates JclPreProcessorContainerIntfTemplates JclPreProcessorContainerKnownMaps JclPreProcessorContainerKnownTypes JclPreProcessorContainerTemplates JclPreProcessorContainerTypes JclPreProcessorExcDlgTemplates JclPreProcessorHashMapsTemplates JclPreProcessorHashSetsTemplates JclPreProcessorLexer JclPreProcessorLinkedListsTemplates JclPreProcessorParser JclPreProcessorQueuesTemplates JclPreProcessorSortedMapsTemplates JclPreProcessorStacksTemplates JclPreProcessorTemplates JclPreProcessorTreesTemplates JclPreProcessorVectorsTemplates JclQueues JclResources JclRTTI JclSchedule JclSimpleXml JclSortedMaps JclStacks JclStatistics JclStreams JclStrHashMap JclStringConversions JclStringLists JclStrings JclSynch JclSysInfo JclSysUtils JclTrees JclUnicode JclUnitConv JclUnitVersioning JclUnitVersioningProviders JclUsesUtils JclValidation JclVectors JclWideStrings pcre zlibh --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$L+ -$Y+ -$J+ -$C- -$D- -$I- -$O+ -$Q- -$R- -$W- -N0"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -ns"System;System.Win;WinAPI;Vcl;Vcl.Imaging" -I"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\include" -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl" -R"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+616750 lines, 2.89 seconds, 53088 bytes code, 16900 bytes data.
+Building source\windows library units for RAD Studio 10 32 bit...
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" Hardlinks JclAppInst JclCIL JclCLR JclCOM JclConsole JclCppException JclDebug JclDebugSerialization JclDebugXMLDeserializer JclDebugXMLSerializer JclDotNet JclHelpUtils JclHookExcept JclLANMan JclLocales JclMapi JclMetadata JclMiscel JclMsBuild JclMsdosSys JclMultimedia JclNTFS JclPeImage JclRegistry JclSecurity JclShell JclStructStorage JclSvcCtrl JclTask JclTD32 JclTimeZones JclWin32 JclWin32Ex JclWinMIDI mscoree_TLB mscorlib_TLB MSHelpServices_TLB MSTask sevenzip Snmp --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$L+ -$Y+ -$J+ -$C- -$D- -$I- -$O+ -$Q- -$R- -$W- -N0"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -ns"System;System.Win;WinAPI;Vcl;Vcl.Imaging" -I"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\include" -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl" -R"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+202024 lines, 1.11 seconds, 3843 bytes code, 596 bytes data.
+Building source\vcl library units for RAD Studio 10 32 bit...
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" JclFont JclGraphics JclGraphUtils JclOpenDialogFavorites JclOpenDialogHooks JclPrint JclVclResources JclVersionControl JclVersionCtrlCVSImpl JclVersionCtrlGITImpl JclVersionCtrlSVNImpl --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$L+ -$Y+ -$J+ -$C- -$D- -$I- -$O+ -$Q- -$R- -$W- -N0"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -ns"System;System.Win;WinAPI;Vcl;Vcl.Imaging" -I"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\include" -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl" -R"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+41135 lines, 0.36 seconds, 7231 bytes code, 24 bytes data.
+Building source\common library debug units for RAD Studio 10 32 bit...
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" bzip2 Jcl8087 JclAbstractContainers JclAlgorithms JclAnsiStrings JclArrayLists JclArraySets JclBase JclBinaryTrees JclCharsets JclCompilerUtils JclComplex JclCompression JclContainerIntf JclCounter JclDateTime JclDevToolsResources JclExprEval JclFileUtils JclHashMaps JclHashSets JclIDEUtils JclIniFiles JclLinkedLists JclLogic JclMath JclMIDI JclMime JclNotify JclPCRE JclPreProcessorAlgorithmsTemplates JclPreProcessorArrayListsTemplates JclPreProcessorArraySetsTemplates JclPreProcessorBinaryTreesTemplates JclPreProcessorContainer1DTemplates JclPreProcessorContainer2DTemplates JclPreProcessorContainerIntfTemplates JclPreProcessorContainerKnownMaps JclPreProcessorContainerKnownTypes JclPreProcessorContainerTemplates JclPreProcessorContainerTypes JclPreProcessorExcDlgTemplates JclPreProcessorHashMapsTemplates JclPreProcessorHashSetsTemplates JclPreProcessorLexer JclPreProcessorLinkedListsTemplates JclPreProcessorParser JclPreProcessorQueuesTemplates JclPreProcessorSortedMapsTemplates JclPreProcessorStacksTemplates JclPreProcessorTemplates JclPreProcessorTreesTemplates JclPreProcessorVectorsTemplates JclQueues JclResources JclRTTI JclSchedule JclSimpleXml JclSortedMaps JclStacks JclStatistics JclStreams JclStrHashMap JclStringConversions JclStringLists JclStrings JclSynch JclSysInfo JclSysUtils JclTrees JclUnicode JclUnitConv JclUnitVersioning JclUnitVersioningProviders JclUsesUtils JclValidation JclVectors JclWideStrings pcre zlibh --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\debug" -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$L+ -$Y+ -$J+ -$C+ -$D+ -$I+ -$O- -$Q+ -$R+ -$W+ -N0"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\debug" -ns"System;System.Win;WinAPI;Vcl;Vcl.Imaging" -I"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\include" -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl" -R"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+616750 lines, 2.89 seconds, 53256 bytes code, 16900 bytes data.
+Building source\windows library debug units for RAD Studio 10 32 bit...
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" Hardlinks JclAppInst JclCIL JclCLR JclCOM JclConsole JclCppException JclDebug JclDebugSerialization JclDebugXMLDeserializer JclDebugXMLSerializer JclDotNet JclHelpUtils JclHookExcept JclLANMan JclLocales JclMapi JclMetadata JclMiscel JclMsBuild JclMsdosSys JclMultimedia JclNTFS JclPeImage JclRegistry JclSecurity JclShell JclStructStorage JclSvcCtrl JclTask JclTD32 JclTimeZones JclWin32 JclWin32Ex JclWinMIDI mscoree_TLB mscorlib_TLB MSHelpServices_TLB MSTask sevenzip Snmp --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\debug" -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$L+ -$Y+ -$J+ -$C+ -$D+ -$I+ -$O- -$Q+ -$R+ -$W+ -N0"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\debug" -ns"System;System.Win;WinAPI;Vcl;Vcl.Imaging" -I"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\include" -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl" -R"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+202024 lines, 1.16 seconds, 3988 bytes code, 596 bytes data.
+Building source\vcl library debug units for RAD Studio 10 32 bit...
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" JclFont JclGraphics JclGraphUtils JclOpenDialogFavorites JclOpenDialogHooks JclPrint JclVclResources JclVersionControl JclVersionCtrlCVSImpl JclVersionCtrlGITImpl JclVersionCtrlSVNImpl --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\debug" -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -M -$X+ -$G+ -$H+ -$P+ -$U- -$T- -$V+ -$J+ -$Z1 -$L+ -$Y+ -$J+ -$C+ -$D+ -$I+ -$O- -$Q+ -$R+ -$W+ -N0"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\debug" -ns"System;System.Win;WinAPI;Vcl;Vcl.Imaging" -I"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\include" -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl" -R"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+41135 lines, 0.67 seconds, 7794 bytes code, 24 bytes data.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\Jcl.dpk...
+Cleaning package cache for Jcl230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\Jcl.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\Jcl.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+129 lines, 0.34 seconds, 1781576 bytes code, 717476 bytes data.
+Compilation success
+...done.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclContainers.dpk...
+Cleaning package cache for JclContainers230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclContainers.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclContainers.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;Jcl;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+70 lines, 0.28 seconds, 2149996 bytes code, 876 bytes data.
+Compilation success
+...done.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclDeveloperTools.dpk...
+Cleaning package cache for JclDeveloperTools230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclDeveloperTools.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclDeveloperTools.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;Jcl;JclContainers;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+87 lines, 0.22 seconds, 500384 bytes code, 14544 bytes data.
+Compilation success
+...done.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclVcl.dpk...
+Cleaning package cache for JclVcl230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclVcl.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclVcl.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;vcl;vclimg;Jcl;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+68 lines, 0.28 seconds, 141884 bytes code, 1696 bytes data.
+Compilation success
+...done.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclBaseExpert.dpk...
+Cleaning package cache for JclBaseExpert230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclBaseExpert.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclBaseExpert.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;vcl;vclx;designide;Jcl;JclDeveloperTools;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+39000 lines, 0.34 seconds, 64892 bytes code, 584 bytes data.
+Compilation success
+...done.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclDebugExpert.dpk...
+Cleaning package cache for JclDebugExpert230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclDebugExpert.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclDebugExpert.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;vcl;designide;Jcl;JclBaseExpert;JclDeveloperTools;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+7400 lines, 0.28 seconds, 39040 bytes code, 460 bytes data.
+Compilation success
+...done.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclProjectAnalysisExpert.dpk...
+Cleaning package cache for JclProjectAnalysisExpert230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclProjectAnalysisExpert.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclProjectAnalysisExpert.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;vcl;designide;Jcl;JclBaseExpert;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+6308 lines, 0.27 seconds, 28012 bytes code, 320 bytes data.
+Compilation success
+...done.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclFavoriteFoldersExpert.dpk...
+Cleaning package cache for JclFavoriteFoldersExpert230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclFavoriteFoldersExpert.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclFavoriteFoldersExpert.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;vcl;designide;Jcl;JclVcl;JclBaseExpert;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+2711 lines, 0.23 seconds, 9648 bytes code, 204 bytes data.
+Compilation success
+...done.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclRepositoryExpert.dpk...
+Cleaning package cache for JclRepositoryExpert230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclRepositoryExpert.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclRepositoryExpert.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;vcl;designide;Jcl;JclContainers;JclBaseExpert;JclDeveloperTools;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+29905 lines, 0.33 seconds, 44132 bytes code, 472 bytes data.
+Compilation success
+...done.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclSIMDViewExpert.dpk...
+Cleaning package cache for JclSIMDViewExpert230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclSIMDViewExpert.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclSIMDViewExpert.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;vcl;designide;Jcl;JclBaseExpert;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\experts\debug\simdview\JclSIMDUtils.pas(867) Warning: W1000 Symbol 'TOTAThreadContext' is deprecated
+C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\experts\debug\simdview\JclSIMDUtils.pas(867) Warning: W1000 Symbol 'TOTAThreadContext' is deprecated
+16135 lines, 0.28 seconds, 58004 bytes code, 884 bytes data.
+Compilation success
+...done.
+Building C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclStackTraceViewerExpert.dpk...
+Cleaning package cache for JclStackTraceViewerExpert230.bpl
+Cleaning ok
+Compiling package C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclStackTraceViewerExpert.dpk
+"C:\Program Files (x86)\Embarcadero\Studio\17.0\bin\dcc32.exe" "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\packages\d23\JclStackTraceViewerExpert.dpk" --no-config -U"C:\Program Files (x86)\Embarcadero\Studio\17.0\lib\Win32\release" -NU"..\..\lib\d23\win32" -I"..\..\lib\d23\win32;..\..\source\include;" -R"..\..\lib\d23\win32;..\..\source\include;" -DBCB;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE;BCB;WIN32;CONDITIONALEXPRESSIONS;VER300;RELEASE -U"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\;C:\Users\Public\Documents\Embarcadero\Studio\17.0\Dcp;..\..\lib\d23\win32;..\..\source\include;" -LU"rtl;vcl;designide;Jcl;JclBaseExpert;" -ns"System;System.Win;WinApi;Vcl;Vcl.Imaging;" -LN"C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32" -LE"C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl"
+Embarcadero Delphi for Win32 compiler version 30.0
+Copyright (c) 1983,2015 Embarcadero Technologies, Inc.
+39083 lines, 0.30 seconds, 66692 bytes code, 468 bytes data.
+Compilation success
+...done.
+Added "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\include" to library search path.
+Added "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\common;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\windows;C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\source\vcl" to library browsing path.
+Added "C:\Users\srkgn\Dropbox\projeler\metro\component\jedi\jcl\lib\d23\win32\debug" to Debug DCU Path.
+Cleaning package cache for JclBaseExpert230.bpl
+Cleaning ok
+Registering package C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl\JclBaseExpert230.bpl
+Registration ok
+Cleaning package cache for JclDebugExpert230.bpl
+Cleaning ok
+Registering package C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl\JclDebugExpert230.bpl
+Registration ok
+Cleaning package cache for JclProjectAnalysisExpert230.bpl
+Cleaning ok
+Registering package C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl\JclProjectAnalysisExpert230.bpl
+Registration ok
+Cleaning package cache for JclFavoriteFoldersExpert230.bpl
+Cleaning ok
+Registering package C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl\JclFavoriteFoldersExpert230.bpl
+Registration ok
+Cleaning package cache for JclRepositoryExpert230.bpl
+Cleaning ok
+Registering package C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl\JclRepositoryExpert230.bpl
+Registration ok
+Cleaning package cache for JclSIMDViewExpert230.bpl
+Cleaning ok
+Registering package C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl\JclSIMDViewExpert230.bpl
+Registration ok
+Cleaning package cache for JclStackTraceViewerExpert230.bpl
+Cleaning ok
+Registering package C:\Users\Public\Documents\Embarcadero\Studio\17.0\Bpl\JclStackTraceViewerExpert230.bpl
+Registration ok

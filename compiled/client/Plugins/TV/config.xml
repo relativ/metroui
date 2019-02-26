@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CONFIG>
+	<PLUGIN NAME="TV" Lib="tv.dll" />
+	<SKIN PATH="Skin" />
+	<BUTTON NAME="TV" CAPTION="TELEVÝZYON" ICON="icon.png" VISIBLE="-1" DRAWFORM="mainform">
+		<EVENT NAME="ONCLICK">
+			<CALLFUNCTION VALUE="ShowTVForm" />
+		</EVENT>
+	</BUTTON>
+</CONFIG>

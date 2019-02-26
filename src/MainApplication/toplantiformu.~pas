@@ -1,0 +1,44 @@
+unit toplantiformu;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs,dm, DynamicSkinForm, ComCtrls, SkinCtrls, SkinExCtrls, OleCtrls,
+  SHDocVw_EWB, EwbCore, EmbeddedWB, StdCtrls, Mask, SkinBoxCtrls;
+
+type
+  TfrmToplanti = class(TForm)
+    SkinForm: TspDynamicSkinForm;
+    AltKonusmaPanel: TspSkinPaintPanel;
+    panelMsg: TspSkinPaintPanel;
+    btnSmile: TspSkinSpeedButton;
+    edtMsgText: TspSkinEdit;
+    spSkinPaintPanel6: TspSkinPaintPanel;
+    SalonChatWB: TEmbeddedWB;
+    spSkinXFormButton3: TspSkinXFormButton;
+    BtnKonusmaPenceresiBuyut: TspSkinXFormButton;
+    spSkinXFormButton1: TspSkinXFormButton;
+    spSkinPaintPanel1: TspSkinPaintPanel;
+    spSkinSpeedButton1: TspSkinSpeedButton;
+    spSkinCheckRadioBox1: TspSkinCheckRadioBox;
+    spSkinLabel3: TspSkinLabel;
+    spSkinPaintPanel2: TspSkinPaintPanel;
+    spSkinListView3: TspSkinListView;
+    spSkinPaintPanel3: TspSkinPaintPanel;
+    spSkinSpeedButton2: TspSkinSpeedButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmToplanti: TfrmToplanti;
+
+implementation
+
+{$R *.dfm}
+uses main;
+
+end.

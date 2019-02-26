@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CONFIG>
+	<PLUGIN NAME="YFILM" Lib="video.dll" />
+	<SKIN PATH="Skin" />
+	<BUTTON NAME="YFILM" CAPTION="YERLÝ FÝLM" ICON="icon.png" VISIBLE="-1" DRAWFORM="mainform">
+		<EVENT NAME="ONCLICK">
+			<CALLFUNCTION VALUE="ShowVideoForm" />
+		</EVENT>
+	</BUTTON>
+</CONFIG>

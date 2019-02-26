@@ -1,0 +1,17 @@
+<!--
+
+Ranges for values
+
+Bass = 0 to 7
+Treble = 0 to 7
+Loudness = 0 to 68
+Volume = 0 to 68
+
+-->
+<HQCT>
+	<BASS>0</BASS>
+	<TREBLE>3</TREBLE>
+	<LOUDNESS>50</LOUDNESS>
+	<VOLUME>45</VOLUME>
+	<SEEKSENSITIVITY>2</SEEKSENSITIVITY>
+</HQCT>

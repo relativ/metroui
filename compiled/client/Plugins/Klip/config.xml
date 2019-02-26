@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CONFIG>
+	<PLUGIN NAME="KLIP" Lib="video.dll" />
+	<SKIN PATH="Skin" />
+	<BUTTON NAME="KLIP" CAPTION="KLÝP" ICON="icon.png" VISIBLE="-1" DRAWFORM="mainform">
+		<EVENT NAME="ONCLICK">
+			<CALLFUNCTION VALUE="ShowVideoForm" />
+		</EVENT>
+	</BUTTON>
+</CONFIG>

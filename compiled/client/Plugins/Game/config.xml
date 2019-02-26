@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<CONFIG>
+	<PLUGIN NAME="GAME" Lib="game.dll" />
+	<SKIN PATH="Skin" />
+	<BUTTON NAME="GAME" CAPTION="OYUN" ICON="icon.png" VISIBLE="-1" DRAWFORM="mainform">
+		<EVENT NAME="ONCLICK">
+			<CALLFUNCTION VALUE="ShowGameForm" />
+		</EVENT>
+	</BUTTON>
+</CONFIG>

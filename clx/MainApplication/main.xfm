@@ -1,0 +1,37 @@
+object MainForm: TMainForm
+  Left = 192
+  Top = 107
+  Width = 870
+  Height = 500
+  BorderStyle = fbsNone
+  Caption = 'MainForm'
+  Color = clBackground
+  OnCreate = FormCreate
+  OnMouseDown = FormMouseDown
+  OnMouseUp = FormMouseUp
+  OnPaint = FormPaint
+  PixelsPerInch = 96
+  TextHeight = 13
+  TextWidth = 6
+  object IdTCPClient: TIdTCPClient
+    ConnectTimeout = 0
+    IPVersion = Id_IPv4
+    Port = 0
+    ReadTimeout = 1000
+    Left = 144
+    Top = 152
+  end
+  object check_connection_timer: TTimer
+    Enabled = False
+    Interval = 500
+    OnTimer = check_connection_timerTimer
+    Left = 256
+    Top = 136
+  end
+  object readLn: TTimer
+    Enabled = False
+    OnTimer = readLnTimer
+    Left = 288
+    Top = 200
+  end
+end
